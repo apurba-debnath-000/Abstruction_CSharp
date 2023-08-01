@@ -12,9 +12,7 @@ namespace Abstruction
         // Abstract can have :
         //Abstract methode for overriden by child class.
         //Non-Abstract-methods
-        private string name;
-        private int age;
-        private string color;
+       
 
         public abstract string Name { set; get; }
         public abstract string Color { set; get; }
